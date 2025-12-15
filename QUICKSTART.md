@@ -35,8 +35,8 @@ python datasets/generate_churn.py
 ### Example 1: Titanic Survival Analysis
 
 ```bash
-python main.py \
-  --topic "Predict passenger survival on the Titanic based on demographics and ticket information" \
+  python main.py \
+  --topic "Conduct a comprehensive analysis of passenger survival factors to identify key determinants of safety and propose a predictive model for risk assessment" \
   --csv "datasets/titanic_sample.csv" \
   --output "titanic_report.md"
 ```
@@ -45,9 +45,9 @@ python main.py \
 
 ```bash
 python main.py \
-  --topic "Identify customers likely to churn from a telecommunications company" \
-  --csv "datasets/telecom_churn_sample.csv" \
-  --output "churn_report.md"
+--topic "Analyze customer churn patterns to identify high-risk segments and recommend retention strategies based on service usage and contract characteristics" \
+--csv "datasets/telecom_churn_sample.csv" \
+--output "telecom_churn_report.md"
 ```
 
 ### Example 3: Custom Dataset
