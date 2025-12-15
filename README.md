@@ -11,6 +11,7 @@ This system uses 4 specialized AI agents that collaborate to:
 - Generate professional technical reports
 
 ## Architecture
+![System Diagram](./system_diagram.png)
 
 The system consists of:
 
